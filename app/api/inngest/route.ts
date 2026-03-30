@@ -5,8 +5,7 @@ import {
   syncUserCreation, 
   syncUserUpdation, 
   syncUserDeletion 
-} from '../../config/inngest'
-
+} from '../../../config/inngest'
 export const { GET, POST, PUT } = serve({
   client: inngest,
   functions: [
